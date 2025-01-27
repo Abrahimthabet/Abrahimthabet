@@ -1,4 +1,4 @@
-# Hi, I'm Abrahim, an I.T. enthusiast
+# Hi, I'm Abrahim, passionate about technology and always eager to learn and grow in the I.T. field.
 <h2> Information Technology Projects:</h2>
 
 - <b>osTicket (Help Desk Ticketing System)</b>
