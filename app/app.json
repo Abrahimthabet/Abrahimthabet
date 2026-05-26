@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "HaulClock",
+    "slug": "haulclock",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "haulclock",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.haulclock.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "HaulClock needs your location to confirm you've arrived at the facility for check-in."
+      }
+    },
+    "android": {
+      "package": "com.haulclock.app",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow HaulClock to use your location for facility check-in."
+        }
+      ]
+    ]
+  }
+}
