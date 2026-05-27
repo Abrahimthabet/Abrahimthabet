@@ -1,5 +1,5 @@
-const FREE_HOURS = Number(process.env.DETENTION_FREE_HOURS || 2);
-const HOURLY_RATE = Number(process.env.DETENTION_HOURLY_RATE || 75);
+const FREE_HOURS = Number(process.env.FREE_TIME_HOURS || process.env.DETENTION_FREE_HOURS || 2);
+const HOURLY_RATE = Number(process.env.DETENTION_RATE || process.env.DETENTION_HOURLY_RATE || 75);
 
 function computeDetention(arrivedAt, endedAt = new Date()) {
   const arrived = new Date(arrivedAt);
